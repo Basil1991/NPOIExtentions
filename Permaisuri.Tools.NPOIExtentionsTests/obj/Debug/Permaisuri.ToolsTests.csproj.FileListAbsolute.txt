@@ -12,3 +12,15 @@ C:\Users\ChenYi\Documents\Visual Studio 2015\Projects\Tools.ExcelHelp\Permaisuri
 C:\Users\ChenYi\Documents\Visual Studio 2015\Projects\Tools.ExcelHelp\Permaisuri.ToolsTests\bin\Debug\Permaisuri.Tools.NPOIExtentions.pdb
 C:\Users\ChenYi\GIT\Tools.ExcelHelp\NPOIExtentions\Permaisuri.ToolsTests\obj\Debug\Permaisuri.ToolsTests.exe
 C:\Users\ChenYi\GIT\Tools.ExcelHelp\NPOIExtentions\Permaisuri.ToolsTests\obj\Debug\Permaisuri.ToolsTests.pdb
+C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentionsTests\obj\Debug\Permaisuri.ToolsTests.exe
+C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentionsTests\obj\Debug\Permaisuri.ToolsTests.pdb
+C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentionsTests\bin\Debug\Permaisuri.ToolsTests.exe
+C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentionsTests\bin\Debug\Permaisuri.ToolsTests.pdb
+C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentionsTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentionsTests\bin\Debug\Permaisuri.Tools.NPOIExtentions.dll
+C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentionsTests\bin\Debug\NPOI.dll
+C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentionsTests\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentionsTests\bin\Debug\Permaisuri.Tools.NPOIExtentions.pdb
+C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentionsTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentionsTests\bin\Debug\NPOI.xml
+C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentionsTests\obj\Debug\Permaisuri.ToolsTests.csprojResolveAssemblyReference.cache

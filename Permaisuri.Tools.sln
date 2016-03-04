@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permaisuri.Tools.NPOIExtentions", "Tools.ExcelHelp\Permaisuri.Tools.NPOIExtentions.csproj", "{F39DD413-7231-4BFF-A2D2-F0F18FCA158E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permaisuri.Tools.NPOIExtentions", "Permaisuri.Tools.NPOIExtentions\Permaisuri.Tools.NPOIExtentions.csproj", "{F39DD413-7231-4BFF-A2D2-F0F18FCA158E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permaisuri.ToolsTests", "Permaisuri.ToolsTests\Permaisuri.ToolsTests.csproj", "{0117BF40-C47F-46B6-8A81-6031B0E55369}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permaisuri.ToolsTests", "Permaisuri.Tools.NPOIExtentionsTests\Permaisuri.ToolsTests.csproj", "{0117BF40-C47F-46B6-8A81-6031B0E55369}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

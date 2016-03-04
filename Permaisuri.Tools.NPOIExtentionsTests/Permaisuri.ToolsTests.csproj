@@ -59,7 +59,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tools.ExcelHelp\Permaisuri.Tools.NPOIExtentions.csproj">
+    <ProjectReference Include="..\Permaisuri.Tools.NPOIExtentions\Permaisuri.Tools.NPOIExtentions.csproj">
       <Project>{F39DD413-7231-4BFF-A2D2-F0F18FCA158E}</Project>
       <Name>Permaisuri.Tools.NPOIExtentions</Name>
     </ProjectReference>
