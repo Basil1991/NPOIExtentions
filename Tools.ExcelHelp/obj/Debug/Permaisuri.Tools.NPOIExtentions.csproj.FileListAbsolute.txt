@@ -1,0 +1,13 @@
+C:\Users\ChenYi\Documents\Visual Studio 2015\Projects\Tools.ExcelHelp\Tools.ExcelHelp\bin\Debug\Permaisuri.Tools.NPOIExtentions.dll
+C:\Users\ChenYi\Documents\Visual Studio 2015\Projects\Tools.ExcelHelp\Tools.ExcelHelp\bin\Debug\Permaisuri.Tools.NPOIExtentions.pdb
+C:\Users\ChenYi\Documents\Visual Studio 2015\Projects\Tools.ExcelHelp\Tools.ExcelHelp\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\ChenYi\Documents\Visual Studio 2015\Projects\Tools.ExcelHelp\Tools.ExcelHelp\bin\Debug\NPOI.dll
+C:\Users\ChenYi\Documents\Visual Studio 2015\Projects\Tools.ExcelHelp\Tools.ExcelHelp\bin\Debug\NPOI.OOXML.dll
+C:\Users\ChenYi\Documents\Visual Studio 2015\Projects\Tools.ExcelHelp\Tools.ExcelHelp\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\ChenYi\Documents\Visual Studio 2015\Projects\Tools.ExcelHelp\Tools.ExcelHelp\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\ChenYi\Documents\Visual Studio 2015\Projects\Tools.ExcelHelp\Tools.ExcelHelp\bin\Debug\NPOI.xml
+C:\Users\ChenYi\Documents\Visual Studio 2015\Projects\Tools.ExcelHelp\Tools.ExcelHelp\bin\Debug\NPOI.OOXML.xml
+C:\Users\ChenYi\Documents\Visual Studio 2015\Projects\Tools.ExcelHelp\Tools.ExcelHelp\bin\Debug\NPOI.OpenXml4Net.xml
+C:\Users\ChenYi\Documents\Visual Studio 2015\Projects\Tools.ExcelHelp\Tools.ExcelHelp\obj\Debug\Permaisuri.Tools.NPOIExtentions.csprojResolveAssemblyReference.cache
+C:\Users\ChenYi\Documents\Visual Studio 2015\Projects\Tools.ExcelHelp\Tools.ExcelHelp\obj\Debug\Permaisuri.Tools.NPOIExtentions.dll
+C:\Users\ChenYi\Documents\Visual Studio 2015\Projects\Tools.ExcelHelp\Tools.ExcelHelp\obj\Debug\Permaisuri.Tools.NPOIExtentions.pdb

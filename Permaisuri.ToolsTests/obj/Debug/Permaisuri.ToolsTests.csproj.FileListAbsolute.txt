@@ -1,0 +1,14 @@
+c:\users\chenyi\documents\visual studio 2015\Projects\Tools.ExcelHelp\Permaisuri.ToolsTests\bin\Debug\Permaisuri.ToolsTests.pdb
+c:\users\chenyi\documents\visual studio 2015\Projects\Tools.ExcelHelp\Permaisuri.ToolsTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\chenyi\documents\visual studio 2015\Projects\Tools.ExcelHelp\Permaisuri.ToolsTests\bin\Debug\NPOI.dll
+c:\users\chenyi\documents\visual studio 2015\Projects\Tools.ExcelHelp\Permaisuri.ToolsTests\bin\Debug\ICSharpCode.SharpZipLib.dll
+c:\users\chenyi\documents\visual studio 2015\Projects\Tools.ExcelHelp\Permaisuri.ToolsTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+c:\users\chenyi\documents\visual studio 2015\Projects\Tools.ExcelHelp\Permaisuri.ToolsTests\bin\Debug\NPOI.xml
+c:\users\chenyi\documents\visual studio 2015\Projects\Tools.ExcelHelp\Permaisuri.ToolsTests\obj\Debug\Permaisuri.ToolsTests.csprojResolveAssemblyReference.cache
+c:\users\chenyi\documents\visual studio 2015\Projects\Tools.ExcelHelp\Permaisuri.ToolsTests\obj\Debug\Permaisuri.ToolsTests.pdb
+c:\users\chenyi\documents\visual studio 2015\Projects\Tools.ExcelHelp\Permaisuri.ToolsTests\bin\Debug\Permaisuri.ToolsTests.exe
+c:\users\chenyi\documents\visual studio 2015\Projects\Tools.ExcelHelp\Permaisuri.ToolsTests\obj\Debug\Permaisuri.ToolsTests.exe
+C:\Users\ChenYi\Documents\Visual Studio 2015\Projects\Tools.ExcelHelp\Permaisuri.ToolsTests\bin\Debug\Permaisuri.Tools.NPOIExtentions.dll
+C:\Users\ChenYi\Documents\Visual Studio 2015\Projects\Tools.ExcelHelp\Permaisuri.ToolsTests\bin\Debug\Permaisuri.Tools.NPOIExtentions.pdb
+C:\Users\ChenYi\GIT\Tools.ExcelHelp\NPOIExtentions\Permaisuri.ToolsTests\obj\Debug\Permaisuri.ToolsTests.exe
+C:\Users\ChenYi\GIT\Tools.ExcelHelp\NPOIExtentions\Permaisuri.ToolsTests\obj\Debug\Permaisuri.ToolsTests.pdb
