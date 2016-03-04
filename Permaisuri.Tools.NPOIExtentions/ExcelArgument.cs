@@ -12,8 +12,8 @@ namespace Permaisuri.Tools.NPOIExtentions.Argument {
             }
             this.SheetArguments = sheetArguments;
         }
-        public string OutPutPath { get; }
-        public List<SheetArgument> SheetArguments { get; }
+        public string OutPutPath { get; private set; }
+        public List<SheetArgument> SheetArguments { get; private set; }
     }
     public class SheetArgument {
         public SheetArgument(ColumnArgument[] columnArguments, string sheetName, short height = 2, bool isTitleShow = false, ClassType classType = ClassType.Default) {
@@ -31,12 +31,12 @@ namespace Permaisuri.Tools.NPOIExtentions.Argument {
             this.TitleHeight = 170 * 3;
             this.RowHeight = Convert.ToInt16(170 * height);
         }
-        public string ColumnHeight { get; }
-        public short TitleHeight { get; }
-        public short RowHeight { get; }
-        public ColumnArgument[] ColumnArguments { get; }
-        public ClassType ClassType { get; }
-        public string SheetName { get; }
+        public string ColumnHeight { get; private set; }
+        public short TitleHeight { get; private set; }
+        public short RowHeight { get; private set; }
+        public ColumnArgument[] ColumnArguments { get; private set; }
+        public ClassType ClassType { get; private set; }
+        public string SheetName { get; private set; }
     }
     public enum ClassType {
         Default = 1
@@ -53,7 +53,7 @@ namespace Permaisuri.Tools.NPOIExtentions.Argument {
             this.Width = width * 170;
             this.ColumnValueType = columnValueType;
         }
-        public int Width { get; }
-        public ColumnValueType ColumnValueType { get; }
+        public int Width { get; private set; }
+        public ColumnValueType ColumnValueType { get; private set; }
     }
 }
