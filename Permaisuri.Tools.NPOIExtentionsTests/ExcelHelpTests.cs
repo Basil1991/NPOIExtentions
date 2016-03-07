@@ -11,7 +11,7 @@ namespace Permaisuri.Tools.NPOIExtentions.Tests {
         private string outPutDirPath = "../../OutPutDir/" + DateTime.Now.Millisecond.ToString();
         public static string PicPath = "../../Pictures/1.jpg";
         [TestMethod()]
-        public void GetDtTest() {
+        public void GetXlsByDt() {
             var dt = getDt();
 
             Argument.ColumnArgument[] colArgs = getNormalColArgs();
@@ -19,9 +19,9 @@ namespace Permaisuri.Tools.NPOIExtentions.Tests {
             Argument.SheetArgument sheetArgs = new Argument.SheetArgument(colArgs, "TestSheet", height: 6);
             List<Argument.SheetArgument> sheetsArgs = new List<Argument.SheetArgument>() { sheetArgs };
             Argument.ExcelArgument excelArgs = new Argument.ExcelArgument(string.Format(outPutDirPath + "_ByDT.xls"), sheetsArgs);
-            new ExcelHelp().Get(dt, excelArgs);
+            new ExcelHelp().GetXls(dt, excelArgs);
         }
-        public void GetDsTest() {
+        public void GetXlsByDs() {
             var ds = getDs();
 
             Argument.ColumnArgument[] colArgs = getNormalColArgs();
@@ -32,17 +32,17 @@ namespace Permaisuri.Tools.NPOIExtentions.Tests {
 
             List<Argument.SheetArgument> sheetsArgs = new List<Argument.SheetArgument>() { sheetArgs, sheetArgs2 };
             Argument.ExcelArgument excelArgs = new Argument.ExcelArgument(string.Format(outPutDirPath + "_ByDS.xls"), sheetsArgs);
-            new ExcelHelp().Get(ds, excelArgs);
+            new ExcelHelp().GetXls(ds, excelArgs);
         }
-        public void GetDynamicTest() {
+        public void GetXlsDynamic() {
             var d = getDynamic();
             Argument.ColumnArgument[] colArgs = getNormalColArgs();
             Argument.SheetArgument sheetArgs = new Argument.SheetArgument(colArgs, "TestSheet", height: 6);
             List<Argument.SheetArgument> sheetsArgs = new List<Argument.SheetArgument>() { sheetArgs };
             Argument.ExcelArgument excelArgs = new Argument.ExcelArgument(string.Format(outPutDirPath + "_ByDynamic.xls"), sheetsArgs);
-            new ExcelHelp().Get(d, excelArgs);
+            new ExcelHelp().GetXls(d, excelArgs);
         }
-        public void GetDynamicListTest() {
+        public void GetXlsByDynamicList() {
             var ds = getDynamics();
 
             Argument.ColumnArgument[] colArgs = getNormalColArgs();
@@ -53,7 +53,7 @@ namespace Permaisuri.Tools.NPOIExtentions.Tests {
 
             List<Argument.SheetArgument> sheetsArgs = new List<Argument.SheetArgument>() { sheetArgs, sheetArgs2 };
             Argument.ExcelArgument excelArgs = new Argument.ExcelArgument(string.Format(outPutDirPath + "_ByDynamics.xls"), sheetsArgs);
-            new ExcelHelp().Get(ds, excelArgs);
+            new ExcelHelp().GetXls(ds, excelArgs);
         }
         private DataTable getDt() {
             DataTable dt = new DataTable();
