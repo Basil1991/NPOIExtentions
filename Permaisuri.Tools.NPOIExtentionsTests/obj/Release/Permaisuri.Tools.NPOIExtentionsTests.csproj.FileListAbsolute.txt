@@ -1,0 +1,14 @@
+C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentionsTests\bin\Release\Permaisuri.Tools.NPOIExtentionsTests.exe
+C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentionsTests\bin\Release\Permaisuri.Tools.NPOIExtentionsTests.pdb
+C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentionsTests\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentionsTests\bin\Release\Permaisuri.Tools.NPOIExtentions.dll
+C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentionsTests\bin\Release\NPOI.dll
+C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentionsTests\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentionsTests\bin\Release\Permaisuri.Tools.NPOIExtentions.pdb
+C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentionsTests\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentionsTests\obj\Release\Permaisuri.Tools.NPOIExtentionsTests.csprojResolveAssemblyReference.cache
+C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentionsTests\obj\Release\Permaisuri.Tools.NPOIExtentionsTests.exe
+C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentionsTests\obj\Release\Permaisuri.Tools.NPOIExtentionsTests.pdb
+C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentionsTests\bin\Release\NPOI.OOXML.dll
+C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentionsTests\bin\Release\NPOI.OpenXmlFormats.dll
+C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentionsTests\bin\Release\NPOI.OpenXml4Net.dll

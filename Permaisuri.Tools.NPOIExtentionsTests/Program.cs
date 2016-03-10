@@ -9,10 +9,14 @@ namespace Permaisuri.Tools.NPOIExtentionsTests {
     class Program {
         static void Main() {
             ExcelHelpTests abc = new ExcelHelpTests();
-            abc.GetXlsByDt();
-            abc.GetXlsByDs();
-            abc.GetXlsDynamic();
-            abc.GetXlsByDynamicList();
+            abc.GetXlsxByDt();
+            //abc.GetXlsxByDs();
+            //abc.GetXlsxDynamic();
+            //abc.GetXlsxByDynamicList();
+            //abc.GetXlsByDt();
+            //abc.GetXlsByDs();
+            //abc.GetXlsDynamic();
+            //abc.GetXlsByDynamicList();
         }
     }
 }

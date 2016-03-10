@@ -46,7 +46,9 @@ namespace Permaisuri.Tools.NPOIExtentions.Argument {
         Int,
         DateTime,
         Double,
-        Picture
+        Picture,
+        IntNull,
+        DoubleNull
     }
     public class ColumnArgument {
         public ColumnArgument(int width, ColumnValueType columnValueType) {

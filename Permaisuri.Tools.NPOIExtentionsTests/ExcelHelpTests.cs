@@ -37,7 +37,7 @@ namespace Permaisuri.Tools.NPOIExtentions.Tests {
         public void GetXlsDynamic() {
             var d = getDynamic();
             Argument.ColumnArgument[] colArgs = getNormalColArgs();
-            Argument.SheetArgument sheetArgs = new Argument.SheetArgument(colArgs, "TestSheet", height: 6);
+            Argument.SheetArgument sheetArgs = new Argument.SheetArgument(colArgs, "TestSheet", height: 1);
             List<Argument.SheetArgument> sheetsArgs = new List<Argument.SheetArgument>() { sheetArgs };
             Argument.ExcelArgument excelArgs = new Argument.ExcelArgument(string.Format(outPutDirPath + "_ByDynamic.xls"), sheetsArgs);
             new ExcelHelp().GetXls(d, excelArgs);
@@ -55,6 +55,48 @@ namespace Permaisuri.Tools.NPOIExtentions.Tests {
             Argument.ExcelArgument excelArgs = new Argument.ExcelArgument(string.Format(outPutDirPath + "_ByDynamics.xls"), sheetsArgs);
             new ExcelHelp().GetXls(ds, excelArgs);
         }
+        public void GetXlsxByDt() {
+            var dt = getDt();
+            Argument.ColumnArgument[] colArgs = getNormalColArgs();
+            Argument.SheetArgument sheetArgs = new Argument.SheetArgument(colArgs, "TestSheet");
+            List<Argument.SheetArgument> sheetsArgs = new List<Argument.SheetArgument>() { sheetArgs };
+            Argument.ExcelArgument excelArgs = new Argument.ExcelArgument(string.Format(outPutDirPath + "_ByDT.xlsx"), sheetsArgs);
+            new ExcelHelp().GetXlsx(dt, excelArgs);
+        }
+        public void GetXlsxByDs() {
+            var ds = getDs();
+
+            Argument.ColumnArgument[] colArgs = getNormalColArgs();
+            Argument.SheetArgument sheetArgs = new Argument.SheetArgument(colArgs, "TestSheet1", height: 6);
+
+            Argument.ColumnArgument[] colArgs2 = getNormalColArgs();
+            Argument.SheetArgument sheetArgs2 = new Argument.SheetArgument(colArgs, "TestSheet2", height: 2);
+
+            List<Argument.SheetArgument> sheetsArgs = new List<Argument.SheetArgument>() { sheetArgs, sheetArgs2 };
+            Argument.ExcelArgument excelArgs = new Argument.ExcelArgument(string.Format(outPutDirPath + "_ByDS.xlsx"), sheetsArgs);
+            new ExcelHelp().GetXlsx(ds, excelArgs);
+        }
+        public void GetXlsxDynamic() {
+            var d = getDynamic();
+            Argument.ColumnArgument[] colArgs = getNormalColArgs();
+            Argument.SheetArgument sheetArgs = new Argument.SheetArgument(colArgs, "TestSheet", height: 6);
+            List<Argument.SheetArgument> sheetsArgs = new List<Argument.SheetArgument>() { sheetArgs };
+            Argument.ExcelArgument excelArgs = new Argument.ExcelArgument(string.Format(outPutDirPath + "_ByDynamic.xlsx"), sheetsArgs);
+            new ExcelHelp().GetXlsx(d, excelArgs);
+        }
+        public void GetXlsxByDynamicList() {
+            var ds = getDynamics();
+
+            Argument.ColumnArgument[] colArgs = getNormalColArgs();
+            Argument.SheetArgument sheetArgs = new Argument.SheetArgument(colArgs, "TestSheet1", height: 6);
+
+            Argument.ColumnArgument[] colArgs2 = getNormalColArgs();
+            Argument.SheetArgument sheetArgs2 = new Argument.SheetArgument(colArgs, "TestSheet2", height: 2);
+
+            List<Argument.SheetArgument> sheetsArgs = new List<Argument.SheetArgument>() { sheetArgs, sheetArgs2 };
+            Argument.ExcelArgument excelArgs = new Argument.ExcelArgument(string.Format(outPutDirPath + "_ByDynamics.xlsx"), sheetsArgs);
+            new ExcelHelp().GetXlsx(ds, excelArgs);
+        }
         private DataTable getDt() {
             DataTable dt = new DataTable();
             dt.Columns.Add("ID");
@@ -63,7 +105,7 @@ namespace Permaisuri.Tools.NPOIExtentions.Tests {
             dt.Columns.Add("DoubleValue");
             dt.Columns.Add("Pictures");
 
-            for (int i = 0; i < 1000; i++) {
+            for (int i = 0; i < 100; i++) {
                 DataRow nRow = dt.NewRow();
                 nRow["ID"] = i;
                 nRow["Text"] = "123123123" + i;
@@ -115,7 +157,7 @@ namespace Permaisuri.Tools.NPOIExtentions.Tests {
             new Argument.ColumnArgument(20, Argument.ColumnValueType.String),
             new Argument.ColumnArgument(30, Argument.ColumnValueType.DateTime),
             new Argument.ColumnArgument(40, Argument.ColumnValueType.Double),
-            new Argument.ColumnArgument(12*3, Argument.ColumnValueType.Picture)
+            new Argument.ColumnArgument(12*2, Argument.ColumnValueType.Picture)
             };
             return colArgs;
         }
@@ -126,8 +168,8 @@ namespace Permaisuri.Tools.NPOIExtentions.Tests {
         public User(bool isDefalt) {
             if (!isDefalt) { }
             else {
-                Name = "Lilei" + new Random().Next(1,10000);
-                Age = new Random().Next(10,50);
+                Name = "Lilei" + new Random().Next(1, 10000);
+                Age = new Random().Next(10, 50);
                 Height = 182.25;
                 BirthDate = DateTime.Now.AddDays(0 - new Random().Next(365 * 10, 365 * 100));
                 PicturePath = ExcelHelpTests.PicPath;

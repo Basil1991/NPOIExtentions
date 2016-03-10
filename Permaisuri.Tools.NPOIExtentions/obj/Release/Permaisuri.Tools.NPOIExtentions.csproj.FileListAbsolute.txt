@@ -5,8 +5,6 @@ C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentions\bin\Release\N
 C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentions\bin\Release\NPOI.OpenXml4Net.dll
 C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentions\bin\Release\NPOI.OpenXmlFormats.dll
 C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentions\bin\Release\ICSharpCode.SharpZipLib.dll
-C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentions\bin\Release\NPOI.xml
-C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentions\bin\Release\NPOI.OOXML.xml
-C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentions\bin\Release\NPOI.OpenXml4Net.xml
 C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentions\obj\Release\Permaisuri.Tools.NPOIExtentions.dll
 C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentions\obj\Release\Permaisuri.Tools.NPOIExtentions.pdb
+C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentions\obj\Release\Permaisuri.Tools.NPOIExtentions.csprojResolveAssemblyReference.cache

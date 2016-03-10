@@ -1,45 +1,35 @@
-﻿using NPOI.HSSF.UserModel;
-using NPOI.SS.UserModel;
+﻿using NPOI.SS.UserModel;
 using Permaisuri.Tools.NPOIExtentions.Argument;
 
 namespace Permaisuri.Tools.NPOIExtentions {
     internal class StyleProcesser {
-        private static HSSFWorkbook wb = null;
-        public static ICellStyle GetStyleByClass(ClassType type, HSSFWorkbook hssfworkbook) {
+        public static ICellStyle GetStyleByClass(ClassType type, IWorkbook workbook) {
             switch (type) {
                 case ClassType.Default:
-                    ICellStyle style = hssfworkbook.CreateCellStyle();
+                    ICellStyle style = workbook.CreateCellStyle();
                     style.WrapText = true;
+                    style.VerticalAlignment = VerticalAlignment.Center;
+                    style.Alignment = HorizontalAlignment.Center;
                     return style;
-                //style.BorderBottom = BorderStyle.Thin;
-                //style.BottomBorderColor = HSSFColor.Black.Index;
-                //style.BorderLeft = BorderStyle.DashDotDot;
-                //style.LeftBorderColor = HSSFColor.Green.Index;
-                //style.BorderRight = BorderStyle.Hair;
-                //style.RightBorderColor = HSSFColor.Blue.Index;
-                //style.BorderTop = BorderStyle.MediumDashed;
-                //style.TopBorderColor = HSSFColor.Orange.Index;
                 default: return null;
             }
         }
-        private static ICellStyle dateTimeStyle = null;
-        public static ICellStyle GetCellStyleByDataType(ColumnValueType type, HSSFWorkbook hssfworkbook) {
+        public static void SetSheetDefaultStyle(ColumnValueType type, IWorkbook workbook, ISheet sheet, int columnIndex) {
+            ICellStyle cellStyle;
             switch (type) {
                 case ColumnValueType.DateTime:
-                    if (dateTimeStyle == null || hssfworkbook != wb) {
-                        ICellStyle cellStyle = hssfworkbook.CreateCellStyle();
-                        IDataFormat format = hssfworkbook.CreateDataFormat();
-                        cellStyle.DataFormat = format.GetFormat("yyyy/m/d  h:mm:sss");
-                        dateTimeStyle = cellStyle;
-                        wb = hssfworkbook;
-                    }
-                    return dateTimeStyle;
-                default: return null;
+                    cellStyle = workbook.CreateCellStyle();
+                    cellStyle.VerticalAlignment = VerticalAlignment.Center;
+                    IDataFormat format = workbook.CreateDataFormat();
+                    cellStyle.DataFormat = format.GetFormat("yyyy/m/d  h:mm:sss");
+                    sheet.SetDefaultColumnStyle(columnIndex, cellStyle);
+                    break;
+                default:
+                    cellStyle = workbook.CreateCellStyle();
+                    cellStyle.VerticalAlignment = VerticalAlignment.Center;
+                    sheet.SetDefaultColumnStyle(columnIndex, cellStyle);
+                    break;
             }
-            //case ColumnValueType.Picture:
-            //    if (pictureStyle == null) {
-            //        ICellStyle cellStyle = hssfworkbook.CreateCellStyle();
-            //    }
         }
     }
 }

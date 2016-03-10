@@ -16,5 +16,17 @@ namespace Permaisuri.Tools.NPOIExtentions {
         public void GetXls(List<dynamic> lists, ExcelArgument arg) {
             ExcelXlsService.ExportXlsExcel(lists, arg);
         }
+        public void GetXlsx(DataTable dt, ExcelArgument arg) {
+            ExcelXlsxService.Export(dt, arg);
+        }
+        public void GetXlsx(DataSet ds, ExcelArgument arg) {
+            ExcelXlsxService.Export(ds, arg);
+        }
+        public void GetXlsx(dynamic list, ExcelArgument arg) {
+            ExcelXlsxService.Export(list, arg);
+        }
+        public void GetXlsx(List<dynamic> lists, ExcelArgument arg) {
+            ExcelXlsxService.Export(lists, arg);
+        }
     }
 }

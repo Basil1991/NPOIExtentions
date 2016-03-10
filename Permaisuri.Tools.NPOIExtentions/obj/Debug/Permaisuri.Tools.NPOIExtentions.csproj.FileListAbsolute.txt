@@ -18,9 +18,6 @@ C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentions\bin\Debug\NPO
 C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentions\bin\Debug\NPOI.OOXML.dll
 C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentions\bin\Debug\NPOI.OpenXml4Net.dll
 C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentions\bin\Debug\NPOI.OpenXmlFormats.dll
-C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentions\bin\Debug\NPOI.xml
-C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentions\bin\Debug\NPOI.OOXML.xml
-C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentions\bin\Debug\NPOI.OpenXml4Net.xml
 C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentions\obj\Debug\Permaisuri.Tools.NPOIExtentions.csprojResolveAssemblyReference.cache
 C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentions\obj\Debug\Permaisuri.Tools.NPOIExtentions.dll
 C:\Users\ChenYi\GIT\NPOIExtentions\Permaisuri.Tools.NPOIExtentions\obj\Debug\Permaisuri.Tools.NPOIExtentions.pdb

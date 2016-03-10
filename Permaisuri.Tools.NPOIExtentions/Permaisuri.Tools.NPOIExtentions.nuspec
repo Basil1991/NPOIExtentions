@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Permaisuri.Tools.NPOIExtentions</id>
+    <version>1.1.0.0</version>
+    <title>Permaisuri.Tools.NPOIExtentions</title>
+    <authors>Basil1991</authors>
+    <owners>Basil1991</owners>
+    <projectUrl></projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ExcelExport Help</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>NPOI Excel Export</tags>
+  </metadata>
+</package>
